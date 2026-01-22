@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+section p{
+    width: 80%;
+}
+section h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#section-1{
+    background-color: #edd424;
+}
+#section-2{
+    background-color: pink;
+}
+#section-3{
+    background-color: aquamarine;
+}

@@ -1,0 +1,41 @@
+*{
+    color: white;
+}
+body {
+    margin: 3%;
+}
+
+header {
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+}
+
+main div {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A7B9B;
+    font-size: 26px;
+}
+
+section {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}
