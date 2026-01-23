@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-size: 32px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header, footer {
+    height: 20vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8D8484;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+main .left_section {
+    width: 73vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main .right_section {
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+}
+
+main .content_1, .content_2, .content_3 {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .spam-1, .spam-2 {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content_1 {
+    background: #776969;
+}
+
+main .content_2 {
+    background: #643030;
+}
+
+main .content_3 {
+    background: #441818;
+}
+
+main .spam-1 {
+    background: #937575;
+}
+
+main .spam-2 {
+    background: #644C4C;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    background: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
