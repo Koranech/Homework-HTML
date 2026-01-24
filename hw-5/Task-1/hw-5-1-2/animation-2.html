@@ -5,35 +5,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Animation 2</title>
-    <style>
-        body {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .color_circle{
-            width: 100px;
-            height: 100px;
-            background-color: aquamarine;
-            border-radius: 50%;
-            border-top: 30px solid red;
-            border-right: 30px solid orange;
-            border-bottom: 30px solid yellow;
-            border-left: 30px solid blue;
-            margin: 100px auto 0 auto;
-            animation: circle 5s linear infinite alternate;
-        }
-        @keyframes circle {
-            from{
-                transform: rotate(360deg) translateX(-300px) translateY(-50px);
-            }
-            to{
-                transform: rotate(-360deg);
-                background-color: rgba(106, 29, 174, 0.85);
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style-2.css">
 </head>
 <body>
 <div class="color_circle"></div>
