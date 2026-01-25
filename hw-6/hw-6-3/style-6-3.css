@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Signature&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Maket ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.maket {
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+main h1 {
+    font-size: 60px;
+    padding: 40px 0;
+    font-family: "Momo Signature", cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    padding-bottom: 10px;
+    border: 1px solid lightgrey;
+}
+
+main .join {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    /*padding-bottom: 10px;*/
+}
+
+main .or {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main input {
+    width: 400px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.submit {
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.or {
+    padding: 15px 0;
+}
+
+h3 {
+    color: gray;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    width: 450px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
