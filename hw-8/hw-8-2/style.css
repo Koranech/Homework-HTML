@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #edd424;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section {
+    width: 271px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+h1, h2 {
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    vertical-align: middle;
+    color: #161543;
+}
+
+p {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #7687A1;
+}
